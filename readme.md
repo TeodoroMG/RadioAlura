@@ -22,11 +22,16 @@ El encapsulamiento es el proceso de ocultar los detalles internos de un objeto y
 El repositorio de GitHub contiene varios archivos y carpetas:
 
 Clases de radio: En el directorio src, encontrarás las clases que representan diferentes tipos de radios, así como otras clases relevantes para la gestión de contenido multimedia y favoritos:
-Audio: Esta clase representa un archivo de audio y proporciona funcionalidades para reproducirlo y gestionarlo.
-Cancion: Representa una canción y hereda funcionalidades de la clase Audio.
-Podscat: Representa un podcast y hereda funcionalidades de la clase Audio.
-MisFavoritos: Esta clase gestiona una lista de canciones y podcasts favoritos.
-Clase principal (Main): La clase Main.java es el punto de entrada del programa. Aquí se crean instancias de los diferentes tipos de radios y se realizan operaciones de prueba para demostrar su funcionamiento. Además, puede involucrar la gestión de contenido multimedia y favoritos utilizando las clases mencionadas anteriormente.
+# Audio:
+ Esta clase representa un archivo de audio y proporciona funcionalidades para reproducirlo y gestionarlo.
+# Cancion: 
+Representa una canción y hereda funcionalidades de la clase Audio.
+# Podscat: 
+Representa un podcast y hereda funcionalidades de la clase Audio.
+# MisFavoritos:
+ Esta clase gestiona una lista de canciones y podcasts favoritos.
+# Clase principal (Main): 
+La clase Main.java es el punto de entrada del programa. Aquí se crean instancias de los diferentes tipos de radios y se realizan operaciones de prueba para demostrar su funcionamiento. Además, puede involucrar la gestión de contenido multimedia y favoritos utilizando las clases mencionadas anteriormente.
 
 
 ## Contribuciones
