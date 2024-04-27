@@ -15,14 +15,19 @@ El encapsulamiento es el proceso de ocultar los detalles internos de un objeto y
 
 ## Sobre el proyecto
 
-RadioAlura es un proyecto Java que simula el funcionamiento de diferentes tipos de radios, desde radios AM/FM convencionales hasta radios de alta gama con funcionalidades avanzadas. Este proyecto ofrece una implementación sencilla pero completa de los conceptos de herencia, polimorfismo y encapsulamiento en Java.
+ "RadioAlura" es un ejercicio práctico de programación en Java que simula el funcionamiento de diferentes tipos de radios. Está diseñado para ilustrar y poner en práctica conceptos clave de la programación orientada a objetos, como la herencia, el polimorfismo y el encapsulamiento.
 
-### Ejecución del proyecto
-Para ejecutar el proyecto, sigue estos pasos:
-1. Clona este repositorio en tu máquina local.
-2. Abre el proyecto en tu entorno de desarrollo Java preferido.
-3. Compila y ejecuta la clase `Main.java`.
-4. Experimenta con los diferentes tipos de radios disponibles y observa cómo se aplican los conceptos de herencia, polimorfismo y encapsulamiento en la práctica.
+ 
+ ## Estructura del proyecto
+El repositorio de GitHub contiene varios archivos y carpetas:
+
+Clases de radio: En el directorio src, encontrarás las clases que representan diferentes tipos de radios, así como otras clases relevantes para la gestión de contenido multimedia y favoritos:
+Audio: Esta clase representa un archivo de audio y proporciona funcionalidades para reproducirlo y gestionarlo.
+Cancion: Representa una canción y hereda funcionalidades de la clase Audio.
+Podscat: Representa un podcast y hereda funcionalidades de la clase Audio.
+MisFavoritos: Esta clase gestiona una lista de canciones y podcasts favoritos.
+Clase principal (Main): La clase Main.java es el punto de entrada del programa. Aquí se crean instancias de los diferentes tipos de radios y se realizan operaciones de prueba para demostrar su funcionamiento. Además, puede involucrar la gestión de contenido multimedia y favoritos utilizando las clases mencionadas anteriormente.
+
 
 ## Contribuciones
 ¡Las contribuciones son bienvenidas! Si encuentras alguna mejora o deseas agregar nuevas funcionalidades, no dudes en enviar un pull request. Juntos, podemos hacer que este proyecto sea aún mejor y ayudar a otros a entender mejor los conceptos de programación orientada a objetos en Java.
